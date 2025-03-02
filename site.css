@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: #000000;
+    text-decoration: none;
+    border-bottom: none;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+.mirror-img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Positioning text on top of images found on website */
+.antoni-gaudi, .zaha-hadid, .architecture, .kengo-kuma, .home, .le-cor, .frank-lloyd, .antoni-flipped, .frank-flipped, .zaha-flipped, .kengo-flipped,.le-flipped {
+    position: absolute;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+/* Architecture */
+.architecture { 
+    top: 8px; left: 16px; 
+    color: black;
+    font-size: 35px;
+    font-family: "Monomakh", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+    
+}
+
+/* Make sure to add the link back to the home page!!!!!!!!!!!! for top right */
+.home { 
+    top: 20px; right: 16px; 
+    color: black;
+    font-size: 20px;
+    font-family: "Monomakh", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+}
+/* frank lloyd */
+.frank-lloyd { 
+    top: 5%; 
+    left: 65%; 
+    color: black;
+    font-family: "Monomakh", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/* Le corbusier */
+.le-cor { 
+    top: 15%; 
+    left: 70%; 
+    color: black;
+    font-family: "Monomakh", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/* Antoni Gaudi */
+.antoni-gaudi { 
+    top: 25%; 
+    left: 74%; 
+    color: black;
+    font-family: "Monomakh", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/* Kengo kuma */
+.kengo-kuma { 
+    top: 36%; 
+    left: 79%;
+    color: black;
+    font-family: "Monomakh", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/* Zaha Hadid */
+.zaha-hadid { 
+    top: 50%; 
+    left: 88%; 
+    color: black;
+    font-family: "Monomakh", serif;
+    font-weight: 400;
+    font-style: normal;
+    transform: translate(-50%, -50%); }
+
+/* frank lloyd */
+.frank-flipped { 
+    top: 5%; 
+    right: 65%; 
+    color: black;
+    font-family: "Monomakh", serif;
+    font-weight: 400;
+    font-style: normal;
+    transform: scaleX(-1);
+    display: inline-block;
+}
+/* Le corbusier */
+.le-flipped { 
+    top: 15%; 
+    right: 70%; 
+    color: black;
+    font-family: "Monomakh", serif;
+    font-weight: 400;
+    font-style: normal;
+    transform: scaleX(-1);
+    display: inline-block;
+}
+/* Antoni Gaudi */
+.antoni-flipped{
+    top: 25%; 
+    right: 74%; 
+    color: black;
+    font-family: "Monomakh", serif;
+    font-weight: 400;
+    font-style: normal;
+    transform: scaleX(-1);
+    display: inline-block;
+}
+/* Kengo kuma */
+.kengo-flipped { 
+    top: 36%; 
+    right: 79%;
+    color: black;
+    font-family: "Monomakh", serif;
+    font-weight: 400;
+    font-style: normal;
+    transform: scaleX(-1);
+    display: inline-block;
+}
+/* Zaha Hadid */
+.zaha-flipped { 
+    top: 47%; 
+    right: 85%; 
+    color: black;
+    font-family: "Monomakh", serif;
+    font-weight: 400;
+    font-style: normal;
+    transform: translate(-50%, -50%);
+    transform: scaleX(-1);
+    display: inline-block;
+ }
