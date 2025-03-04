@@ -1,0 +1,84 @@
+.container {
+    background-color: #78726b;
+}
+
+/* Positioning text on top of images found on website */
+.architecture, .home{
+    position: absolute;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    border-bottom: none;
+}
+
+.page-head{
+    background-color:#bcb4a9;
+    height: 135px;
+    
+}
+/* Architecture */
+.architecture { 
+    top: 8px; left: 16px; 
+    color: white;
+    font-size: 35px;
+    font-family: "Monomakh", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+    
+}
+
+.home { 
+    top: 20px; right: 16px; 
+    color: white;
+    font-size: 20px;
+    font-family: "Monomakh", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+}
+
+body{
+  margin:0;
+}
+.text-body {
+    background-color:#78726b;
+    color: white;
+    display:flex;
+    flex-direction: row;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 75px;
+    padding-right: 50px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.kengo-port{
+    width:12%;
+    height: 10%;
+    padding-left: 35px;
+}
+
+.intro-text{
+    width: 65%;
+    font-size: 25px;
+    text-align: center;
+}
+
+.title-center { 
+    top: 19%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    position: absolute;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-size: 100px;
+}

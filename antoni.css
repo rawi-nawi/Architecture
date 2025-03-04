@@ -1,0 +1,33 @@
+.container {
+    background-color: #bcb4a9;
+}
+
+/* Positioning text on top of images found on website */
+.antoni-gaudi, .zaha-hadid, .architecture, .kengo-kuma, .home, .le-cor, .frank-lloyd, .antoni-flipped, .frank-flipped, .zaha-flipped, .kengo-flipped,.le-flipped {
+    position: absolute;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* Architecture */
+.architecture { 
+    top: 8px; left: 16px; 
+    color: black;
+    font-size: 35px;
+    font-family: "Monomakh", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+    
+}
+
+.home { 
+    top: 20px; right: 16px; 
+    color: black;
+    font-size: 20px;
+    font-family: "Monomakh", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+}
