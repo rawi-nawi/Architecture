@@ -2,8 +2,13 @@
     background-color: #bcb4a9;
 }
 
+body{
+    background-color: #bcb4a9;
+    margin: 0;
+}
+
 /* Positioning text on top of images found on website */
-.antoni-gaudi, .zaha-hadid, .architecture, .kengo-kuma, .home, .le-cor, .frank-lloyd, .antoni-flipped, .frank-flipped, .zaha-flipped, .kengo-flipped,.le-flipped {
+.architecture, .home{
     position: absolute;
     color: white;
     font-size: 1.5em;
@@ -30,4 +35,33 @@
     font-weight: 400;
     font-style: normal;
     font-weight: bold;
+}
+
+.title-center { 
+    top: 600px; 
+    left: 730px; 
+    transform: translate(-50%, -50%); 
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: 100px;
+}
+
+.text-body {
+    color: white;
+    display:flex;
+    flex-direction: column;
+    margin-bottom: auto;
+    padding-right: 50px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.sharp {
+    width: 100%;          /* Ensures image takes full width */
+    height: auto;         /* Maintains aspect ratio */
+    max-width: 100%;      /* Ensures it doesn't stretch more than its original size */
+    display: block;       /* Removes any unwanted space below the image */
+    margin: 0 auto;       /* Centers the image horizontally */
 }

@@ -2,8 +2,7 @@
     background-color: #e2eef5;
 }
 
-/* Positioning text on top of images found on website */
-.antoni-gaudi, .zaha-hadid, .architecture, .kengo-kuma, .home, .le-cor, .frank-lloyd, .antoni-flipped, .frank-flipped, .zaha-flipped, .kengo-flipped,.le-flipped {
+.architecture, .home{
     position: absolute;
     color: white;
     font-size: 1.5em;
@@ -30,4 +29,52 @@
     font-weight: 400;
     font-style: normal;
     font-weight: bold;
+}
+
+body{
+    margin: 0;
+}
+
+.corner.img{
+    width: 100px;
+    height: 75px;
+}
+
+.squiggle{
+    width: 50%;
+    height: 40%;
+    margin-left: 763px;
+}
+
+.text-body {
+    color: #7394a8;
+    display:flex;
+    flex-direction: row;
+    margin-bottom: auto;
+    padding-right: 50px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.zaha-port{
+    width: 20%;
+    height: 25%;
+    padding-right: 35px;
+}
+
+.intro-text{
+    width: 65%;
+    font-size: 25px;
+    text-align: center;
+}
+
+.title-right { 
+    top: 15%; 
+    left: 55%; 
+    position: absolute;
+    font-family: "Monomakh", serif;
+    font-style: normal;
+    color: white;
+    font-size: 100px;
 }
