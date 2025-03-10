@@ -1,19 +1,30 @@
 .container {
-    background-color: #879894;
+    background-color:white;
 }
 
 /* Positioning text on top of images found on website */
-.antoni-gaudi, .zaha-hadid, .architecture, .kengo-kuma, .home, .le-cor, .frank-lloyd, .antoni-flipped, .frank-flipped, .zaha-flipped, .kengo-flipped,.le-flipped {
+.architecture, .home, .right-text, .img-front1, .left-text, .img-front2{
     position: absolute;
     color: white;
     font-size: 1.5em;
     font-weight: bold;
 }
 
+a{
+    color: #3d454e;
+    text-decoration: none;
+    border-bottom: none;
+}
+
+.page-head{
+    background-color:#78726b;
+    height: 135px;
+    
+}
 /* Architecture */
 .architecture { 
     top: 8px; left: 16px; 
-    color: black;
+    color: #3d454e;
     font-size: 35px;
     font-family: "Monomakh", serif;
     font-weight: 400;
@@ -24,10 +35,119 @@
 
 .home { 
     top: 20px; right: 16px; 
-    color: black;
+    color:#3d454e;
     font-size: 20px;
     font-family: "Monomakh", serif;
     font-weight: 400;
     font-style: normal;
     font-weight: bold;
+}
+
+body{
+  margin:0;
+}
+
+.title-center { 
+    top: 95px; 
+    left: 125px;  
+    position: absolute;
+    color: #3d454e;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.white-space{
+    height: 50px;
+    background-color: white;
+    color: white;
+}
+
+.text-body {
+    background-color:#879894;
+    color: white;
+    display:flex;
+    flex-direction: row;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 75px;
+    padding-right: 50px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.frank-port{
+    width:12%;
+    height: 10%;
+    padding-left: 35px;
+}
+
+.intro-text{
+    width: 65%;
+    font-size: 25px;
+    text-align: center;
+    color:white;
+}
+
+.img-back1{
+    background-color:#6f7985;
+    color: white;
+    display:flex;
+    flex-direction: row;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-right: 50px;
+    align-items: center;
+    justify-content: center;
+    height:  357px;
+}
+
+.img-front1{
+    top: 595px; 
+    left: 125px;
+    width:fit-content;
+    height: fit-content;
+}
+.exchange1{
+    width: 400px;
+    height: 300px;
+}
+
+.exchange{
+    object-fit: contain;
+    background-position: center; 
+    opacity: 0.25;
+}
+
+.right-text{
+    top: 625px; 
+    right: 125px;
+    color:white;
+    width: 800px;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Monomakh", serif;
+    font-weight: 100;
+}
+
+.left-text{
+    top: 1025px; 
+    left: 125px;
+    color:white;
+    width: 800px;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Monomakh", serif;
+    font-weight: 100;
+}
+
+.img-front2{
+    top: 1000px; 
+    right: 125px;
+    width:fit-content;
+    height: fit-content;
+}
+.exchange2{
+    width: 400px;
+    height: 300px;
 }

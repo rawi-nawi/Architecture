@@ -6,9 +6,14 @@ body{
     background-color: #bcb4a9;
     margin: 0;
 }
+a{
+    color: black;
+    text-decoration: none;
+    border-bottom: none;
+}
 
 /* Positioning text on top of images found on website */
-.architecture, .home{
+.architecture, .home, .img-front1,.img-front2,.left-text,.right-text{
     position: absolute;
     color: white;
     font-size: 1.5em;
@@ -24,7 +29,6 @@ body{
     font-weight: 400;
     font-style: normal;
     font-weight: bold;
-    
 }
 
 .home { 
@@ -42,13 +46,13 @@ body{
     left: 730px; 
     transform: translate(-50%, -50%); 
     position: absolute;
-    color: white;
+    color: black;
     font-weight: bold;
     font-size: 100px;
 }
 
 .text-body {
-    color: white;
+    color: black;
     display:flex;
     flex-direction: column;
     margin-bottom: auto;
@@ -56,6 +60,97 @@ body{
     align-items: center;
     justify-content: center;
     padding-bottom: 30px;
+}
+
+.text-body{
+    background-color:#9c9488;
+    color: black;
+    display:flex;
+    flex-direction: row;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 75px;
+    padding-right: 50px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.antoni.port{
+    width:12%;
+    height: 10%;
+    padding-left: 35px;
+}
+.intro-text{
+    width: 65%;
+    font-size: 25px;
+    text-align: center;
+    padding-right: 20px;
+}
+
+.white-space{
+    height: 50px;
+    background-color: white;
+    color: white;
+}
+
+.img-back1{
+    background-color:#c7e2f2;
+    color: white;
+    display:flex;
+    flex-direction: row;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-right: 50px;
+    align-items: center;
+    justify-content: center;
+    height:  450px;
+}
+.exchange{
+    object-fit: contain;
+    background-position: center; 
+    opacity: 0.25;
+}
+.left-text{
+    top: 1975px; 
+    left: 125px;
+    color:black;
+    width: 800px;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Monomakh", serif;
+    font-weight: 100;
+}
+
+.img-front2{
+    top: 1950px; 
+    right: 125px;
+    width:fit-content;
+    height: fit-content;
+}
+.exchange2{
+    width: 400px;
+    height: 300px;
+}
+
+.img-front1{
+    top: 1450px; 
+    left: 125px;
+    width:fit-content;
+    height: fit-content;
+}
+.exchange1{
+    width: 400px;
+    height: 300px;
+}
+.right-text{
+    top: 1460px; 
+    right: 125px;
+    color:black;
+    width: 800px;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Monomakh", serif;
+    font-weight: 100;
 }
 
 .sharp {

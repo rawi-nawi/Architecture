@@ -2,7 +2,13 @@
     background-color: #e2eef5;
 }
 
-.architecture, .home{
+a{
+    color: black;
+    text-decoration: none;
+    border-bottom: none;
+}
+
+.architecture, .home, .img-front2,.left-text,.right-text,.img-front1{
     position: absolute;
     color: white;
     font-size: 1.5em;
@@ -45,12 +51,18 @@ body{
     height: 40%;
     margin-left: 763px;
 }
+.white-space{
+    height: 50px;
+    background-color: white;
+    color: white;
+}
 
 .text-body {
-    color: #7394a8;
+    background-color:#c7e2f2;
+    color: white;
     display:flex;
     flex-direction: row;
-    margin-bottom: auto;
+    padding-top: 65px;
     padding-right: 50px;
     align-items: center;
     justify-content: center;
@@ -61,12 +73,14 @@ body{
     width: 20%;
     height: 25%;
     padding-right: 35px;
+    padding-top: 20pxs;
 }
 
 .intro-text{
     width: 65%;
     font-size: 25px;
     text-align: center;
+    color: black;
 }
 
 .title-right { 
@@ -77,4 +91,64 @@ body{
     font-style: normal;
     color: white;
     font-size: 100px;
+}
+
+.img-back1{
+    background-color:#7894a4;
+    color: white;
+    display:flex;
+    flex-direction: row;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-right: 50px;
+    align-items: center;
+    justify-content: center;
+    height:  450px;
+}
+.exchange{
+    object-fit: contain;
+    background-position: center; 
+    opacity: 0.25;
+}
+.left-text{
+    top: 1100px; 
+    left: 125px;
+    color:black;
+    width: 800px;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Monomakh", serif;
+    font-weight: 100;
+}
+
+.img-front2{
+    top: 1060px; 
+    right: 125px;
+    width:fit-content;
+    height: fit-content;
+}
+.exchange2{
+    width: 400px;
+    height: 300px;
+}
+
+.img-front1{
+    top: 1575px; 
+    left: 125px;
+    width:fit-content;
+    height: fit-content;
+}
+.exchange1{
+    width: 400px;
+    height: 300px;
+}
+.right-text{
+    top: 1600px; 
+    right: 125px;
+    color:black;
+    width: 800px;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Monomakh", serif;
+    font-weight: 100;
 }

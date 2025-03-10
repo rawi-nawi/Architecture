@@ -1,9 +1,9 @@
 .container {
-    background-color: #78726b;
+    background-color:white;
 }
 
 /* Positioning text on top of images found on website */
-.architecture, .home{
+.architecture, .home, .right-text, .img-front1, .left-text, .img-front2{
     position: absolute;
     color: white;
     font-size: 1.5em;
@@ -11,20 +11,20 @@
 }
 
 a{
-    color: white;
+    color: #a99788;
     text-decoration: none;
     border-bottom: none;
 }
 
 .page-head{
-    background-color:#bcb4a9;
+    background-color:#3f332a;
     height: 135px;
     
 }
 /* Architecture */
 .architecture { 
     top: 8px; left: 16px; 
-    color: white;
+    color: #a99788;
     font-size: 35px;
     font-family: "Monomakh", serif;
     font-weight: 400;
@@ -35,7 +35,7 @@ a{
 
 .home { 
     top: 20px; right: 16px; 
-    color: white;
+    color: #a99788;
     font-size: 20px;
     font-family: "Monomakh", serif;
     font-weight: 400;
@@ -47,7 +47,7 @@ body{
   margin:0;
 }
 .text-body {
-    background-color:#78726b;
+    background-color:#5c4e43;
     color: white;
     display:flex;
     flex-direction: row;
@@ -69,7 +69,9 @@ body{
 .intro-text{
     width: 65%;
     font-size: 25px;
+    font-family: "Monomakh", serif;
     text-align: center;
+    
 }
 
 .title-center { 
@@ -77,7 +79,76 @@ body{
     left: 50%; 
     transform: translate(-50%, -50%); 
     position: absolute;
-    color: white;
+    color: #a99788;
     font-weight: bold;
     font-size: 100px;
+}
+
+.white-space{
+    height: 50px;
+    background-color: white;
+    color: white;
+}
+
+.img-back1{
+    background-color:#877566;
+    color: white;
+    display:flex;
+    flex-direction: row;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-right: 50px;
+    align-items: center;
+    justify-content: center;
+    height:  357px;
+}
+
+.img-front1{
+    top: 635px; 
+    left: 125px;
+    width:fit-content;
+    height: fit-content;
+}
+.exchange1{
+    width: 400px;
+    height: 300px;
+}
+
+.exchange{
+    object-fit: contain;
+    background-position: center; 
+    opacity: 0.25;
+}
+
+.right-text{
+    top: 670px; 
+    right: 125px;
+    color:white;
+    width: 800px;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Monomakh", serif;
+    font-weight: 100;
+}
+
+.left-text{
+    top: 1075px; 
+    left: 125px;
+    color:white;
+    width: 800px;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Monomakh", serif;
+    font-weight: 100;
+}
+
+.img-front2{
+    top: 1040px; 
+    right: 125px;
+    width:fit-content;
+    height: fit-content;
+}
+.exchange2{
+    width: 400px;
+    height: 300px;
 }
